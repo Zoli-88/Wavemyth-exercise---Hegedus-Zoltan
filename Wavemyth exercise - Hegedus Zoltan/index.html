@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+
+<!-- Downloaded for free from https://www.favicon.cc/?action=icon&file_id=702813 -->
+
+<link href="./Favicon/favicon.ico" rel="icon" type="image/x-icon" />
+
+<!-- External CSS -->
+<link rel="stylesheet" href="index.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!-- SwiperJS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+<script src="index.js" defer></script>    
+
+<title>WaveMyth Exercise - Hegedus Zoltan</title>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <ul>
+        <li><a class="nav--logo--text" href="#"><span>C</span>O<span>SM</span>O<span>S</span></a></li>
+        <li><a href="#"><img src="./Icons/house-icon.svg" alt="house icon" width="25px" height="auto">Home</a></li>
+        <li><a href="#"><img src="./Icons/globe-icon.svg" alt="globe icon" width="20px" height="auto">Destinations</a></li>
+        <li><a href="#"><img src="./Icons/spaceship-icon-small.svg" alt="spaceship icon" width="24px" height="auto">Spaceships</a></li>
+        <li><a href="#"><img src="./Icons/shopping-cart-icon.svg" alt="shopping cart icon" width="25px" height="auto">0</a></li>
+    </ul>
+</nav>
+
+<!-- Main -->
+<main>
+
+    <!-- Confirmation modal added to the Checkout button to simulate a purchase -->
+    <div class="modal--overlay hidden">
+        <div class="modal">
+            <p>Are you sure you want to buy the ticket? 🚀</p>
+            <div class="modal--btn--wrapper">
+                <button>Confirm</button>
+                <button>Cancel</button>
+
+            </div>
+        </div>
+    </div>
+
+<!-- SwiperJS library ------ Slider main container -->
+    <div class="swiper">
+    
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+      <!-- Slides -->
+            <div class="swiper-slide">
+          
+        <!-- Hero section -->
+
+                <section class="hero--container">
+                    <div class="text--on--hero--container--image">
+                        <p>ENCELADUS</p>
+                        <p>The Saturn System</p>
+                        <p>Distance: 9.5</p>
+                        <p>AUPopulation: 3920</p>
+                    </div>
+                    <img src="./Images/Enceladus.png" alt="Enceladus moon of Saturn">
+                    
+                    <div class="hero--main--text">
+                        <h2>Enceladus</h2>
+                        <p>is the sixth-largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>
+                        <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+        
+        <!-- Hero button container -->
+
+                    <div class="hero--btn--container">
+                        <div>
+                            <h2>999.990 €</h2>
+                            <p>one way ticket</p>
+                        </div>
+                        <button>Purchase</button>
+                        </div>
+                    </div>
+    
+                </section>
+            </div>
+                <div class="swiper-slide">
+                    <section class="hero--container">
+                        <div class="text--on--hero--container--image">
+                            <p>DEIMOS</p>
+                            <p>The Mars System</p>
+                            <p>Distance: 7.4</p>
+                            <p>AUPopulation: 1545</p>
+                        </div>
+
+                        <img src="./Images/Deimos.png" alt="Deimos moon of Mars">
+                        <div class="hero--main--text">
+                            <h2>Deimos</h2>
+                            <p>Deimos is the smaller of Mars' two moons. Deimos whirls around Mars every 30 hours.</p>
+                            <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+            
+                        <div class="hero--btn--container">
+                            <div>
+                                <h2>879.990 €</h2>
+                                <p>one way ticket</p>
+                            </div>
+                                <button>Purchase</button>
+                        </div>
+                        </div>
+    
+                    </section>
+    </div>
+      <div class="swiper-slide">
+          <section class="hero--container">
+            <div class="text--on--hero--container--image">
+                <p>CHARON</p>
+                <p>The Pluto System</p>
+                <p>Distance: 6.4</p>
+                <p>AUPopulation: 4120</p>
+            </div>
+            <img src="./Images/Charon.png" alt="Charon moon of Pluto">
+            <div class="hero--main--text">
+                <h2>Charon</h2>
+                <p>is the largest of Pluto's 5 moons and the largest known satellite relative to its parent.</p>
+                <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>
+        
+            <div class="hero--btn--container">
+                <div>
+                    <h2>989.150 €</h2>
+                    <p>one way ticket</p>
+                </div>
+                <button>Purchase</button>
+            </div>
+            </div>
+    
+            </section>
+</div>
+    </div>
+  
+    <!-- Slider navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+
+  </div>
+
+  <!-- Icon section -->
+
+<section class="icon--container">
+    <figure>
+        <img src="./Icons/briefcase-icon.svg" alt="briefcase icon" width="90px" height="auto">
+        <figcaption>pack</figcaption>
+      </figure>
+      <p>›</p>
+      <figure>
+          <img src="./Icons/spaceship-icon-large.svg" alt="spaceship icon" width="83px" height="auto">
+          <figcaption>fly</figcaption>
+        </figure>
+        <p>›</p>
+        <figure>
+            <img src="./Icons/leaves-icon.svg" alt="leaves icon" width="99px" height="auto">
+            <figcaption>live</figcaption>
+        </figure>
+        <p>›</p>
+      <div class="icon--container--text">
+          <p>ENJOY</p>
+          <p>A NEW WORLD!</p>
+      </div>
+
+</section>
+
+<!-- Text content section -->
+
+<section class="text--content--container">
+    <h2>PFL package</h2>
+    <hr>
+<p>
+    Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. Vivamus ex ante, tristique sed elit id, scelerisque scelerisque risus. Nulla malesuada suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu purus. Sed arcu enim, rhoncus non porta eu, finibus sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. Cras velit neque, tincidunt et purus eu, semper dignissim risus. Quisque gravida interdum ipsum ac dignissim. Aenean fringilla libero leo, vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc pretium nec. Integer id facilisis nibh. In porta at tellus eget consectetur. Vestibulum nisl nunc, euismod a aliquet sit amet, fermentum in massa.
+</p>
+<p>
+    Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi, eu euismod velit finibus et. Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. 
+</p>
+<p>
+    Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. 
+</p>
+<button>Checkout</button>
+</section>
+    </main>
+
+<!-- Footer -->
+<footer>
+        <p> <!-- Inserted text from JavaScript --> </p>
+        <p>All data and company references are purely fictitious and shouldn’t be confused with real world entities or names.</p>
+</footer>
+</body>
+</html>
